@@ -1,0 +1,43 @@
+.differentials {
+  padding: 80px 20px;
+}
+
+.differentials-container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.differentials-container h3 {
+  font-size: 1.8rem;
+  color: var(--color-primary);
+  margin-bottom: 40px;
+}
+
+.differentials-list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.differential-item {
+  max-width: 300px;
+}
+
+.differential-item h4 {
+  margin-bottom: 10px;
+  color: var(--color-text);
+}
+
+.differential-item p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .differentials-list {
+    flex-direction: column;
+    align-items: center;
+  }
+}

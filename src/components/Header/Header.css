@@ -1,0 +1,50 @@
+.header {
+  width: 100%;
+  background-color: #ffffff;
+  border-bottom: 1px solid #eaeaea;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+.header-container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.nav a {
+  font-size: 0.95rem;
+  transition: color 0.3s;
+}
+
+.nav a:hover {
+  color: var(--color-primary);
+}
+
+.btn-contato {
+  padding: 8px 16px;
+  background-color: var(--color-primary);
+  color: #ffffff;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+.btn-contato:hover {
+  background-color: var(--color-accent);
+}
